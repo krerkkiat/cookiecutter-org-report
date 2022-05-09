@@ -1,0 +1,14 @@
+#+title: {{ cookiecutter.project_name }}
+#+author: {{ cookiecutter.full_name }} ({{ cookiecutter.email }})
+#+options: toc:nil
+#+latex_header: \usepackage{listings}
+#+latex_header: \lstset{language=Python,basicstyle=\ttfamily\scriptsize,breaklines=true}
+
+* Introduction
+
+* Discussion
+
+* Conclusion
+
+[[bibliographystyle:IEEEtran]]
+bibliography:{{ cookiecutter.project_slug }}
