@@ -6,9 +6,24 @@
 
 * Introduction
 
+* Approach
+
 * Discussion
 
 * Conclusion
 
+* Example blocks
+
+#+name: lst-python-code
+#+caption: Lorem ipsum.
+#+begin_src python
+if __name__ == "__main__":
+    print("Lorem ipsum")
+#+end_src
+
+#+caption: Lorem ipsum.
+#+name: fig:diagram
+[[./random-diagram.png]]
+
 [[bibliographystyle:IEEEtran]]
-bibliography:{{ cookiecutter.project_slug }}
+bibliography:{{ cookiecutter.project_slug }}.bib
